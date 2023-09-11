@@ -6,3 +6,206 @@ INFO 2023-09-02 16:54:04,078 views 5396 3892Index page accessed
 INFO 2023-09-02 16:54:04,079 basehttp 5396 3892"GET / HTTP/1.1" 200 154
 INFO 2023-09-02 16:54:05,581 views 5396 3892Index page accessed
 INFO 2023-09-02 16:54:05,583 basehttp 5396 3892"GET / HTTP/1.1" 200 154
+INFO 2023-09-06 19:33:24,888 autoreload 3100 13052Watching for file changes with StatReloader
+INFO 2023-09-06 19:33:27,750 views 3100 12968Index page accessed
+INFO 2023-09-06 19:33:27,752 basehttp 3100 12968"GET / HTTP/1.1" 200 154
+WARNING 2023-09-06 19:33:27,910 log 3100 12968Not Found: /favicon.ico
+INFO 2023-09-06 19:33:27,911 basehttp 3100 12968- Broken pipe from ('127.0.0.1', 54280)
+INFO 2023-09-06 19:33:28,889 views 3100 12520Index page accessed
+INFO 2023-09-06 19:33:28,890 basehttp 3100 12520"GET / HTTP/1.1" 200 154
+INFO 2023-09-11 14:05:27,898 autoreload 11660 6204Watching for file changes with StatReloader
+INFO 2023-09-11 14:12:47,726 autoreload 10576 8320Watching for file changes with StatReloader
+INFO 2023-09-11 14:13:26,248 autoreload 4712 13412Watching for file changes with StatReloader
+INFO 2023-09-11 14:13:36,277 autoreload 3604 7480Watching for file changes with StatReloader
+INFO 2023-09-11 14:13:58,967 autoreload 3604 7480C:\linux\python\django\myproject\marketplace\views.py changed, reloading.
+INFO 2023-09-11 14:14:17,974 autoreload 2600 3584Watching for file changes with StatReloader
+INFO 2023-09-11 14:14:19,320 views 2600 8664Index page accessed
+INFO 2023-09-11 14:14:19,321 basehttp 2600 8664"GET / HTTP/1.1" 200 154
+INFO 2023-09-11 14:14:20,250 views 2600 8664Index page accessed
+INFO 2023-09-11 14:14:20,250 basehttp 2600 8664"GET / HTTP/1.1" 200 154
+INFO 2023-09-11 14:14:20,737 views 2600 8664Index page accessed
+INFO 2023-09-11 14:14:20,738 basehttp 2600 8664"GET / HTTP/1.1" 200 154
+INFO 2023-09-11 14:14:20,935 views 2600 8664Index page accessed
+INFO 2023-09-11 14:14:20,936 basehttp 2600 8664"GET / HTTP/1.1" 200 154
+INFO 2023-09-11 14:14:21,130 views 2600 8664Index page accessed
+INFO 2023-09-11 14:14:21,130 basehttp 2600 8664"GET / HTTP/1.1" 200 154
+INFO 2023-09-11 14:14:21,304 views 2600 8664Index page accessed
+INFO 2023-09-11 14:14:21,304 basehttp 2600 8664"GET / HTTP/1.1" 200 154
+INFO 2023-09-11 14:14:27,376 basehttp 2600 8664"GET /client HTTP/1.1" 301 0
+ERROR 2023-09-11 14:14:27,437 log 2600 7448Internal Server Error: /client/
+Traceback (most recent call last):
+  File "C:\Users\Alex\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Alex\AppData\Roaming\Python\Python39\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+  File "C:\Users\Alex\AppData\Roaming\Python\Python39\site-packages\django\middleware\clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+AttributeError: 'Client' object has no attribute 'get'
+ERROR 2023-09-11 14:14:27,438 basehttp 2600 7448"GET /client/ HTTP/1.1" 500 62543
+ERROR 2023-09-11 14:15:34,728 log 2600 7448Internal Server Error: /client/
+Traceback (most recent call last):
+  File "C:\Users\Alex\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Alex\AppData\Roaming\Python\Python39\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+  File "C:\Users\Alex\AppData\Roaming\Python\Python39\site-packages\django\middleware\clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+AttributeError: 'Client' object has no attribute 'get'
+ERROR 2023-09-11 14:15:34,729 basehttp 2600 7448"GET /client/ HTTP/1.1" 500 62418
+INFO 2023-09-11 14:18:44,300 autoreload 6924 13464Watching for file changes with StatReloader
+INFO 2023-09-11 14:18:45,442 views 6924 12808Index page accessed
+INFO 2023-09-11 14:18:45,443 basehttp 6924 12808"GET / HTTP/1.1" 200 154
+INFO 2023-09-11 14:18:52,401 basehttp 6924 12808"GET /client/ HTTP/1.1" 200 0
+INFO 2023-09-11 14:18:54,647 basehttp 6924 12808"GET /client/ HTTP/1.1" 200 0
+INFO 2023-09-11 14:18:55,190 basehttp 6924 12808"GET /client/ HTTP/1.1" 200 0
+INFO 2023-09-11 14:28:09,639 autoreload 6924 13464C:\linux\python\django\myproject\marketplace\models.py changed, reloading.
+INFO 2023-09-11 14:28:10,092 autoreload 12156 13032Watching for file changes with StatReloader
+INFO 2023-09-11 14:30:00,524 views 12156 10280Index page accessed
+INFO 2023-09-11 14:30:00,525 basehttp 12156 10280"GET / HTTP/1.1" 200 154
+INFO 2023-09-11 14:30:01,506 views 12156 10280Index page accessed
+INFO 2023-09-11 14:30:01,507 basehttp 12156 10280"GET / HTTP/1.1" 200 154
+INFO 2023-09-11 14:30:10,408 basehttp 12156 10280"GET /client/ HTTP/1.1" 200 0
+INFO 2023-09-11 14:30:41,647 autoreload 8316 11796Watching for file changes with StatReloader
+INFO 2023-09-11 14:32:41,053 autoreload 2140 2788Watching for file changes with StatReloader
+INFO 2023-09-11 15:27:25,297 autoreload 12512 13668Watching for file changes with StatReloader
+INFO 2023-09-11 15:27:26,683 views 12512 10740Index page accessed
+INFO 2023-09-11 15:27:26,684 basehttp 12512 10740"GET / HTTP/1.1" 200 154
+WARNING 2023-09-11 15:27:26,751 log 12512 10740Not Found: /favicon.ico
+INFO 2023-09-11 15:27:26,752 basehttp 12512 10740- Broken pipe from ('127.0.0.1', 53869)
+INFO 2023-09-11 15:27:31,068 basehttp 12512 11980"GET /client/ HTTP/1.1" 200 254
+WARNING 2023-09-11 15:27:31,100 log 12512 11980Not Found: /favicon.ico
+INFO 2023-09-11 15:27:31,100 basehttp 12512 11980- Broken pipe from ('127.0.0.1', 53870)
+INFO 2023-09-11 15:27:34,071 basehttp 12512 2380"GET /client/ HTTP/1.1" 200 254
+INFO 2023-09-11 15:29:32,751 autoreload 12512 13668C:\linux\python\django\myproject\marketplace\views.py changed, reloading.
+INFO 2023-09-11 15:29:33,191 autoreload 9500 4148Watching for file changes with StatReloader
+INFO 2023-09-11 15:30:04,424 basehttp 9500 8836"GET /client/ HTTP/1.1" 200 254
+WARNING 2023-09-11 15:30:04,462 log 9500 8836Not Found: /favicon.ico
+INFO 2023-09-11 15:30:04,463 basehttp 9500 8836- Broken pipe from ('127.0.0.1', 53893)
+INFO 2023-09-11 15:30:40,213 autoreload 9500 4148C:\linux\python\django\myproject\marketplace\views.py changed, reloading.
+INFO 2023-09-11 15:30:40,638 autoreload 2380 2968Watching for file changes with StatReloader
+INFO 2023-09-11 15:31:57,711 autoreload 2380 2968C:\linux\python\django\myproject\marketplace\views.py changed, reloading.
+INFO 2023-09-11 15:31:58,128 autoreload 2584 5616Watching for file changes with StatReloader
+INFO 2023-09-11 15:31:59,273 basehttp 2584 3276"GET /client/ HTTP/1.1" 200 254
+WARNING 2023-09-11 15:32:06,548 log 2584 3276Not Found: /product
+WARNING 2023-09-11 15:32:06,549 basehttp 2584 3276"GET /product HTTP/1.1" 404 2597
+WARNING 2023-09-11 15:32:47,232 log 2584 3276Not Found: /product
+WARNING 2023-09-11 15:32:47,233 basehttp 2584 3276"GET /product HTTP/1.1" 404 2597
+WARNING 2023-09-11 15:32:47,267 log 2584 3276Not Found: /favicon.ico
+INFO 2023-09-11 15:32:47,268 basehttp 2584 3276- Broken pipe from ('127.0.0.1', 53915)
+INFO 2023-09-11 15:32:47,647 autoreload 2584 5616C:\linux\python\django\myproject\marketplace\urls.py changed, reloading.
+INFO 2023-09-11 15:32:48,067 autoreload 13144 4904Watching for file changes with StatReloader
+WARNING 2023-09-11 15:32:48,221 log 13144 13236Not Found: /product
+WARNING 2023-09-11 15:32:48,222 basehttp 13144 13236"GET /product HTTP/1.1" 404 2768
+WARNING 2023-09-11 15:32:48,257 log 13144 13236Not Found: /favicon.ico
+INFO 2023-09-11 15:32:48,257 basehttp 13144 13236- Broken pipe from ('127.0.0.1', 53917)
+WARNING 2023-09-11 15:32:48,529 log 13144 8564Not Found: /product
+WARNING 2023-09-11 15:32:48,529 basehttp 13144 8564"GET /product HTTP/1.1" 404 2768
+WARNING 2023-09-11 15:32:48,887 log 13144 8564Not Found: /product
+WARNING 2023-09-11 15:32:48,888 basehttp 13144 8564"GET /product HTTP/1.1" 404 2768
+INFO 2023-09-11 15:33:12,898 autoreload 13144 4904C:\linux\python\django\myproject\marketplace\urls.py changed, reloading.
+INFO 2023-09-11 15:33:13,314 autoreload 1848 11000Watching for file changes with StatReloader
+INFO 2023-09-11 15:33:15,086 views 1848 2856Index page accessed
+INFO 2023-09-11 15:33:15,087 basehttp 1848 2856"GET / HTTP/1.1" 200 154
+INFO 2023-09-11 15:33:19,374 basehttp 1848 2856"GET /client/ HTTP/1.1" 200 254
+WARNING 2023-09-11 15:33:19,413 log 1848 2856Not Found: /favicon.ico
+INFO 2023-09-11 15:33:19,414 basehttp 1848 2856- Broken pipe from ('127.0.0.1', 53931)
+INFO 2023-09-11 15:34:11,575 basehttp 1848 9892"GET /client/ HTTP/1.1" 200 152
+WARNING 2023-09-11 15:34:11,608 log 1848 9892Not Found: /favicon.ico
+INFO 2023-09-11 15:34:11,608 basehttp 1848 9892- Broken pipe from ('127.0.0.1', 53937)
+INFO 2023-09-11 15:34:12,069 basehttp 1848 13088"GET /client/ HTTP/1.1" 200 152
+INFO 2023-09-11 15:34:12,490 basehttp 1848 13088"GET /client/ HTTP/1.1" 200 152
+INFO 2023-09-11 15:34:12,833 basehttp 1848 13088"GET /client/ HTTP/1.1" 200 152
+WARNING 2023-09-11 15:34:12,864 log 1848 13088Not Found: /favicon.ico
+INFO 2023-09-11 15:34:12,865 basehttp 1848 13088- Broken pipe from ('127.0.0.1', 53938)
+WARNING 2023-09-11 15:34:47,719 log 1848 5612Not Found: /product
+WARNING 2023-09-11 15:34:47,720 basehttp 1848 5612"GET /product HTTP/1.1" 404 2770
+WARNING 2023-09-11 15:34:48,873 log 1848 5612Not Found: /product
+WARNING 2023-09-11 15:34:48,874 basehttp 1848 5612"GET /product HTTP/1.1" 404 2770
+WARNING 2023-09-11 15:34:48,907 log 1848 5612Not Found: /favicon.ico
+INFO 2023-09-11 15:34:48,908 basehttp 1848 5612- Broken pipe from ('127.0.0.1', 53943)
+WARNING 2023-09-11 15:34:49,148 log 1848 7776Not Found: /product
+WARNING 2023-09-11 15:34:49,149 basehttp 1848 7776"GET /product HTTP/1.1" 404 2770
+WARNING 2023-09-11 15:34:49,359 log 1848 7776Not Found: /product
+WARNING 2023-09-11 15:34:49,360 basehttp 1848 7776"GET /product HTTP/1.1" 404 2770
+INFO 2023-09-11 15:34:53,544 basehttp 1848 7776"GET /products HTTP/1.1" 301 0
+INFO 2023-09-11 15:34:53,551 basehttp 1848 13296"GET /products/ HTTP/1.1" 200 101
+INFO 2023-09-11 15:34:54,596 basehttp 1848 13296"GET /products/ HTTP/1.1" 200 101
+INFO 2023-09-11 15:34:54,857 basehttp 1848 13296"GET /products/ HTTP/1.1" 200 101
+INFO 2023-09-11 15:34:55,067 basehttp 1848 13296"GET /products/ HTTP/1.1" 200 101
+INFO 2023-09-11 15:34:55,250 basehttp 1848 13296"GET /products/ HTTP/1.1" 200 101
+INFO 2023-09-11 15:35:00,353 autoreload 1848 11000C:\linux\python\django\myproject\marketplace\urls.py changed, reloading.
+INFO 2023-09-11 15:35:00,785 autoreload 5536 8840Watching for file changes with StatReloader
+INFO 2023-09-11 15:35:05,359 basehttp 5536 10908"GET /product/ HTTP/1.1" 200 101
+INFO 2023-09-11 15:35:06,093 basehttp 5536 10908"GET /product/ HTTP/1.1" 200 101
+INFO 2023-09-11 15:35:06,371 basehttp 5536 10908"GET /product/ HTTP/1.1" 200 101
+WARNING 2023-09-11 15:35:06,408 log 5536 10908Not Found: /favicon.ico
+INFO 2023-09-11 15:35:06,409 basehttp 5536 10908- Broken pipe from ('127.0.0.1', 53947)
+INFO 2023-09-11 15:35:06,589 basehttp 5536 8432"GET /product/ HTTP/1.1" 200 101
+INFO 2023-09-11 15:35:06,755 basehttp 5536 8432"GET /product/ HTTP/1.1" 200 101
+INFO 2023-09-11 15:35:06,945 basehttp 5536 8432"GET /product/ HTTP/1.1" 200 101
+INFO 2023-09-11 15:35:07,148 basehttp 5536 8432"GET /product/ HTTP/1.1" 200 101
+INFO 2023-09-11 15:35:48,396 basehttp 5536 8432"GET /product/ HTTP/1.1" 200 101
+INFO 2023-09-11 15:35:48,739 basehttp 5536 8432"GET /product/ HTTP/1.1" 200 101
+INFO 2023-09-11 15:35:48,988 basehttp 5536 8432"GET /product/ HTTP/1.1" 200 101
+INFO 2023-09-11 15:35:49,188 basehttp 5536 8432"GET /product/ HTTP/1.1" 200 101
+INFO 2023-09-11 15:35:49,394 basehttp 5536 8432"GET /product/ HTTP/1.1" 200 101
+WARNING 2023-09-11 15:35:49,424 log 5536 8432Not Found: /favicon.ico
+INFO 2023-09-11 15:35:49,424 basehttp 5536 8432- Broken pipe from ('127.0.0.1', 53949)
+INFO 2023-09-11 15:35:49,578 basehttp 5536 13688"GET /product/ HTTP/1.1" 200 101
+INFO 2023-09-11 15:35:49,771 basehttp 5536 13688"GET /product/ HTTP/1.1" 200 101
+INFO 2023-09-11 15:36:02,460 basehttp 5536 13688"GET /product/ HTTP/1.1" 200 101
+INFO 2023-09-11 15:36:02,670 autoreload 5536 8840C:\linux\python\django\myproject\marketplace\views.py changed, reloading.
+INFO 2023-09-11 15:36:03,112 autoreload 9268 5144Watching for file changes with StatReloader
+ERROR 2023-09-11 15:36:03,360 log 9268 9512Internal Server Error: /product/
+Traceback (most recent call last):
+  File "C:\Users\Alex\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Alex\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\linux\python\django\myproject\marketplace\views.py", line 15, in products
+    products = Product.objects.all('\n')
+TypeError: all() takes 1 positional argument but 2 were given
+ERROR 2023-09-11 15:36:03,361 basehttp 9268 9512"GET /product/ HTTP/1.1" 500 62117
+ERROR 2023-09-11 15:36:04,236 log 9268 9512Internal Server Error: /product/
+Traceback (most recent call last):
+  File "C:\Users\Alex\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Alex\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\linux\python\django\myproject\marketplace\views.py", line 15, in products
+    products = Product.objects.all('\n')
+TypeError: all() takes 1 positional argument but 2 were given
+ERROR 2023-09-11 15:36:04,237 basehttp 9268 9512"GET /product/ HTTP/1.1" 500 62117
+WARNING 2023-09-11 15:36:04,282 log 9268 8980Not Found: /favicon.ico
+INFO 2023-09-11 15:36:04,283 basehttp 9268 8980- Broken pipe from ('127.0.0.1', 53965)
+INFO 2023-09-11 15:37:04,965 autoreload 9268 5144C:\linux\python\django\myproject\marketplace\views.py changed, reloading.
+INFO 2023-09-11 15:37:05,385 autoreload 4340 5612Watching for file changes with StatReloader
+INFO 2023-09-11 15:37:22,995 autoreload 4340 5612C:\linux\python\django\myproject\marketplace\views.py changed, reloading.
+INFO 2023-09-11 15:37:23,412 autoreload 1936 10908Watching for file changes with StatReloader
+INFO 2023-09-11 15:37:24,469 views 1936 2476Index page accessed
+INFO 2023-09-11 15:37:24,469 basehttp 1936 2476"GET / HTTP/1.1" 200 154
+INFO 2023-09-11 15:37:26,629 basehttp 1936 2476"GET /product/ HTTP/1.1" 200 141
+WARNING 2023-09-11 15:37:26,676 log 1936 2476Not Found: /favicon.ico
+INFO 2023-09-11 15:37:26,677 basehttp 1936 2476- Broken pipe from ('127.0.0.1', 53974)
+INFO 2023-09-11 15:37:28,501 basehttp 1936 10964"GET /product/ HTTP/1.1" 200 141
+INFO 2023-09-11 15:37:28,777 basehttp 1936 10964"GET /product/ HTTP/1.1" 200 141
+INFO 2023-09-11 15:37:29,005 basehttp 1936 10964"GET /product/ HTTP/1.1" 200 141
+INFO 2023-09-11 15:37:29,226 basehttp 1936 10964"GET /product/ HTTP/1.1" 200 141
+INFO 2023-09-11 15:37:29,426 basehttp 1936 10964"GET /product/ HTTP/1.1" 200 141
+INFO 2023-09-11 15:37:29,619 basehttp 1936 10964"GET /product/ HTTP/1.1" 200 141
+WARNING 2023-09-11 15:37:29,647 log 1936 10964Not Found: /favicon.ico
+INFO 2023-09-11 15:37:29,648 basehttp 1936 10964- Broken pipe from ('127.0.0.1', 53975)
+INFO 2023-09-11 15:37:29,883 basehttp 1936 6648"GET /product/ HTTP/1.1" 200 141
+INFO 2023-09-11 15:37:30,098 basehttp 1936 6648"GET /product/ HTTP/1.1" 200 141
+INFO 2023-09-11 15:38:55,820 basehttp 1936 6648"GET /product/ HTTP/1.1" 200 141
+INFO 2023-09-11 15:38:55,974 autoreload 1936 10908C:\linux\python\django\myproject\marketplace\urls.py changed, reloading.
+INFO 2023-09-11 15:38:56,405 autoreload 10124 5016Watching for file changes with StatReloader
+INFO 2023-09-11 15:39:00,973 basehttp 10124 8392"GET /order HTTP/1.1" 301 0
+INFO 2023-09-11 15:39:00,980 basehttp 10124 13928"GET /order/ HTTP/1.1" 200 0
+INFO 2023-09-11 15:58:18,228 autoreload 11748 12312Watching for file changes with StatReloader
+INFO 2023-09-11 15:58:19,153 views 11748 5256Index page accessed
+INFO 2023-09-11 15:58:19,153 basehttp 11748 5256"GET / HTTP/1.1" 200 154
+WARNING 2023-09-11 15:58:19,211 log 11748 5256Not Found: /favicon.ico
+INFO 2023-09-11 15:58:19,211 basehttp 11748 5256- Broken pipe from ('127.0.0.1', 54222)
+INFO 2023-09-11 15:58:23,079 basehttp 11748 2196"GET /client/ HTTP/1.1" 200 152
+INFO 2023-09-11 15:58:28,696 basehttp 11748 2196"GET /order/ HTTP/1.1" 200 0
