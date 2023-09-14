@@ -58,7 +58,7 @@ ROOT_URLCONF = 'myproject.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['myproject/marketplace/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -137,12 +137,12 @@ LOGGING = {
     'handlers': {
         'console': {
             'class': 'logging.StreamHandler',
-            'formatter': 'verbose',  # добавлен параметр formatter
+            'formatter': 'verbose',
         },
         'file': {
             'class': 'logging.FileHandler',
             'filename': './log/django.log',
-            'formatter': 'verbose',  # добавлен параметр formatter
+            'formatter': 'verbose',
         },
     },
     'loggers': {

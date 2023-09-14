@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<title>Список клиентов и их заказы</title>
+</head>
+<body>
+<h1>Список клиентов и их заказы</h1>
+
+{% if clients %}
+<ul>
+    {% for client in clients %}
+    <li>
+        <h2>{{ client.name }}</h2>
+        <ul>
+            {% for order in client.order_set.all %}
+            <li>
+                Заказ #{{ order.id }} - {{ order.order_date }}:
+                Общая сумма: {{ order.total_amount }}
+            </li>
+            {% endfor %}
+        </ul>
+    </li>
+    {% endfor %}
+</ul>
+{% else %}
+<p>Нет доступных клиентов.</p>
+{% endif %}
+{% endblock %}
