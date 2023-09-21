@@ -157,3 +157,14 @@ LOGGING = {
         },
     },
 }
+
+
+MEDIA_URL = '/upload/'
+MEDIA_ROOT = BASE_DIR / 'upload'
+
+APPEND_SLASH = False
+
+
+CSRF_COOKIE_HTTPONLY=True
+
+CSRF_COOKIE_SECURE=False

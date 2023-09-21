@@ -39,3 +39,7 @@ def client_list(request):
     return render(request, 'orders_list.html', context)
 
 
+def upload_product(request):
+    products = Product.objects.all()
+    context = {'products': products}
+    return render(request, 'upload_product.html', context)

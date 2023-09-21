@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+
+<title>Загрузка фото</title>
+</head>
+<body>
+<h1>Загрузка фото</h1>
+
+<form action="/upload/" method="POST" enctype="multipart/form-data">
+    {% csrf_token %}
+    <input type="file" name="photo">
+    <input type="submit" value="Загрузить">
+</form>
+
+
+{% endblock %}

@@ -4845,3 +4845,69 @@ INFO 2023-09-14 16:05:50,516 basehttp 3604 5224"GET /clients/ HTTP/1.1" 200 1554
 INFO 2023-09-14 16:05:50,875 basehttp 3604 5224"GET /clients/ HTTP/1.1" 200 15544
 INFO 2023-09-14 16:05:51,090 basehttp 3604 5224"GET /clients/ HTTP/1.1" 200 15544
 INFO 2023-09-14 16:05:51,283 basehttp 3604 5224"GET /clients/ HTTP/1.1" 200 15544
+INFO 2023-09-21 17:14:17,130 autoreload 17744 13676Watching for file changes with StatReloader
+INFO 2023-09-21 17:14:21,582 views 17744 18060Index page accessed
+INFO 2023-09-21 17:14:21,584 basehttp 17744 18060"GET / HTTP/1.1" 200 154
+WARNING 2023-09-21 17:14:21,710 log 17744 18060Not Found: /favicon.ico
+WARNING 2023-09-21 17:14:21,711 basehttp 17744 18060"GET /favicon.ico HTTP/1.1" 404 3123
+INFO 2023-09-21 17:14:29,621 basehttp 17744 18060"GET /clients HTTP/1.1" 301 0
+INFO 2023-09-21 17:14:29,666 basehttp 17744 9604"GET /clients/ HTTP/1.1" 200 15544
+INFO 2023-09-21 17:25:28,173 autoreload 20248 8Watching for file changes with StatReloader
+INFO 2023-09-21 17:25:34,376 views 20248 2744Index page accessed
+INFO 2023-09-21 17:25:34,377 basehttp 20248 2744"GET / HTTP/1.1" 200 154
+INFO 2023-09-21 17:25:43,472 basehttp 20248 2744"GET /products HTTP/1.1" 301 0
+INFO 2023-09-21 17:25:43,485 basehttp 20248 8800"GET /products/ HTTP/1.1" 200 392
+INFO 2023-09-21 17:27:10,271 autoreload 20304 4316Watching for file changes with StatReloader
+WARNING 2023-09-21 17:27:11,679 log 20304 14832Not Found: /products/
+WARNING 2023-09-21 17:27:11,679 basehttp 20304 14832"GET /products/ HTTP/1.1" 404 3294
+WARNING 2023-09-21 17:27:12,541 log 20304 14832Not Found: /products/
+WARNING 2023-09-21 17:27:12,542 basehttp 20304 14832"GET /products/ HTTP/1.1" 404 3294
+WARNING 2023-09-21 17:27:13,020 log 20304 14832Not Found: /products/
+WARNING 2023-09-21 17:27:13,021 basehttp 20304 14832"GET /products/ HTTP/1.1" 404 3294
+WARNING 2023-09-21 17:27:13,354 log 20304 14832Not Found: /products/
+WARNING 2023-09-21 17:27:13,354 basehttp 20304 14832"GET /products/ HTTP/1.1" 404 3294
+WARNING 2023-09-21 17:27:13,663 log 20304 14832Not Found: /products/
+WARNING 2023-09-21 17:27:13,663 basehttp 20304 14832"GET /products/ HTTP/1.1" 404 3294
+INFO 2023-09-21 17:27:17,085 basehttp 20304 14832"GET /upload/ HTTP/1.1" 200 392
+ERROR 2023-09-21 17:27:23,326 log 20304 14832Internal Server Error: /upload
+Traceback (most recent call last):
+  File "C:\Users\filippovag\python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\filippovag\python\lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+  File "C:\Users\filippovag\python\lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+  File "C:\Users\filippovag\python\lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/upload/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2023-09-21 17:27:23,328 basehttp 20304 14832"POST /upload HTTP/1.1" 500 69690
+INFO 2023-09-21 17:30:08,632 autoreload 20304 4316C:\dis\python\django\HWdjango\myproject\myproject\settings.py changed, reloading.
+INFO 2023-09-21 17:30:11,391 autoreload 19892 6140Watching for file changes with StatReloader
+INFO 2023-09-21 17:30:17,978 basehttp 19892 18840"GET /clients/ HTTP/1.1" 200 15544
+INFO 2023-09-21 17:30:22,608 basehttp 19892 18840"GET /upload/ HTTP/1.1" 200 393
+WARNING 2023-09-21 17:30:25,934 log 19892 18840Forbidden (CSRF cookie not set.): /upload/
+WARNING 2023-09-21 17:30:25,939 basehttp 19892 18840"POST /upload/ HTTP/1.1" 403 2870
+WARNING 2023-09-21 17:30:51,352 log 19892 18840Forbidden (CSRF cookie not set.): /upload/
+WARNING 2023-09-21 17:30:51,356 basehttp 19892 18840"POST /upload/ HTTP/1.1" 403 2870
+INFO 2023-09-21 17:31:49,525 autoreload 19892 6140C:\dis\python\django\HWdjango\myproject\myproject\settings.py changed, reloading.
+INFO 2023-09-21 17:31:49,975 autoreload 17996 16176Watching for file changes with StatReloader
+INFO 2023-09-21 17:32:00,734 autoreload 17996 16176C:\dis\python\django\HWdjango\myproject\myproject\settings.py changed, reloading.
+INFO 2023-09-21 17:32:01,173 autoreload 2572 11516Watching for file changes with StatReloader
+INFO 2023-09-21 17:32:06,754 autoreload 2572 11516C:\dis\python\django\HWdjango\myproject\myproject\settings.py changed, reloading.
+INFO 2023-09-21 17:32:07,200 autoreload 10316 19696Watching for file changes with StatReloader
+INFO 2023-09-21 17:32:29,377 autoreload 10316 19696C:\dis\python\django\HWdjango\myproject\myproject\settings.py changed, reloading.
+INFO 2023-09-21 17:32:29,823 autoreload 5664 8828Watching for file changes with StatReloader
+INFO 2023-09-21 17:34:27,872 autoreload 14124 2528Watching for file changes with StatReloader
+WARNING 2023-09-21 17:36:12,114 log 14124 18564Forbidden (CSRF cookie not set.): /upload/
+WARNING 2023-09-21 17:36:12,115 basehttp 14124 18564"POST /upload/ HTTP/1.1" 403 2870
+INFO 2023-09-21 17:36:14,866 basehttp 14124 18564"GET /upload/ HTTP/1.1" 200 519
+INFO 2023-09-21 17:36:18,360 basehttp 14124 18564"POST /upload/ HTTP/1.1" 200 519
+INFO 2023-09-21 17:37:06,667 basehttp 14124 18564"POST /upload/ HTTP/1.1" 200 519
+INFO 2023-09-21 17:38:40,294 autoreload 9224 14832Watching for file changes with StatReloader
+INFO 2023-09-21 17:38:43,432 basehttp 9224 20072"POST /upload/ HTTP/1.1" 200 519
+INFO 2023-09-21 17:38:46,085 basehttp 9224 20072"POST /upload/ HTTP/1.1" 200 519
+INFO 2023-09-21 17:38:54,454 basehttp 9224 20072"POST /upload/ HTTP/1.1" 200 519
+INFO 2023-09-21 17:40:30,229 autoreload 15200 2704Watching for file changes with StatReloader
+INFO 2023-09-21 17:40:33,651 basehttp 15200 17404"POST /upload/ HTTP/1.1" 200 519
+INFO 2023-09-21 17:40:36,476 basehttp 15200 17404"POST /upload/ HTTP/1.1" 200 519
+INFO 2023-09-21 17:40:39,892 basehttp 15200 17404"POST /upload/ HTTP/1.1" 200 519
