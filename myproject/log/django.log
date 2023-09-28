@@ -5138,3 +5138,34 @@ django.db.utils.OperationalError: no such column: marketplace_product.photo
 ERROR 2023-09-25 19:21:41,993 basehttp 15464 8260"GET /admin/marketplace/product/ HTTP/1.1" 500 158151
 INFO 2023-09-25 19:21:43,776 basehttp 15464 8260"GET /admin/marketplace/client/ HTTP/1.1" 200 13185
 INFO 2023-09-25 19:22:00,571 basehttp 15464 8260"GET /admin/ HTTP/1.1" 200 7844
+INFO 2023-09-28 19:17:03,385 autoreload 7008 5928Watching for file changes with StatReloader
+INFO 2023-09-28 19:17:05,780 views 7008 11364Index page accessed
+INFO 2023-09-28 19:17:05,890 basehttp 7008 11364"GET / HTTP/1.1" 200 154
+INFO 2023-09-28 19:17:09,280 views 7008 11364Index page accessed
+INFO 2023-09-28 19:17:09,292 basehttp 7008 11364"GET / HTTP/1.1" 200 154
+WARNING 2023-09-28 19:17:18,727 log 7008 11364Not Found: /__debug__
+WARNING 2023-09-28 19:17:18,728 basehttp 7008 11364"GET /__debug__ HTTP/1.1" 404 13167
+INFO 2023-09-28 19:17:18,757 basehttp 7008 11364"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12621
+INFO 2023-09-28 19:17:18,763 basehttp 7008 11984"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13404
+INFO 2023-09-28 19:17:18,776 basehttp 7008 11984"GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2023-09-28 19:17:18,785 basehttp 7008 11364"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4527
+INFO 2023-09-28 19:17:25,813 basehttp 7008 11984"GET /admin/ HTTP/1.1" 200 17625
+INFO 2023-09-28 19:17:25,845 basehttp 7008 11984"GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2023-09-28 19:17:25,846 basehttp 7008 11364"GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2023-09-28 19:17:25,847 basehttp 7008 8144"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2023-09-28 19:17:25,847 basehttp 7008 7408"GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2023-09-28 19:17:25,850 basehttp 7008 11984"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2023-09-28 19:17:25,852 basehttp 7008 11984"GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2023-09-28 19:17:25,852 basehttp 7008 8144"GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2023-09-28 19:17:25,871 basehttp 7008 11984"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2023-09-28 19:17:25,871 basehttp 7008 7408"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2023-09-28 19:17:34,606 views 7008 11984Index page accessed
+INFO 2023-09-28 19:17:34,617 basehttp 7008 11984"GET / HTTP/1.1" 200 154
+INFO 2023-09-28 19:17:39,992 basehttp 7008 11984"GET /clients HTTP/1.1" 301 0
+INFO 2023-09-28 19:17:40,089 basehttp 7008 11364"GET /clients/ HTTP/1.1" 200 26849
+INFO 2023-09-28 19:17:40,113 basehttp 7008 7408"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2023-09-28 19:17:40,113 basehttp 7008 8144"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2023-09-28 19:17:40,131 basehttp 7008 7408"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2023-09-28 19:17:40,131 basehttp 7008 8144"GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2023-09-28 19:18:13,287 autoreload 7008 5928C:\linux\python\django\myproject\myproject\urls.py changed, reloading.
+INFO 2023-09-28 19:18:13,778 autoreload 8020 8208Watching for file changes with StatReloader

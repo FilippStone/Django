@@ -21,4 +21,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('myapp.urls')),
     path('', include('marketplace.urls')),
+    path('debug/', include('debug_toolbar.urls')),
 ]

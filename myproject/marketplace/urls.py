@@ -6,5 +6,5 @@ urlpatterns = [
     path('order/', order, name='order'),
     path('product/', products, name='products'),
     path('clients/', client_list, name='client_list'),
-    path('upload/', upload_product, name='upload_product')
+    path('media/', upload_product, name='upload_product')
 ]
