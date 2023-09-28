@@ -22,11 +22,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-3!gbv0n%2m@)atg*41kp%(krlsrxz5v%&n&8#de_7qh39ae3=y'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
     '192.168.0.4',
     '127.0.0.1',
+    'FilippStone.pythonanywhere.com'
 ]
 
 # Application definition
@@ -118,6 +119,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
 STATIC_URL = 'static/'
+
+SESSION_COOKIE_SECURE = True
+
+CSRF_COOKIE_SECURE = True
 
 INTERNAL_IPS = [
     '127.0.0.1',
